@@ -1,5 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+
+    /* Its ensures that when you set the width and height of an element, it includes the padding and border in those dimensions. */
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: "Merriweather", serif;
 }
+
+/* banner style start here */
+.banner-section {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    min-height: 600px;
+
+    /* border: 2px solid red; */
+    border-radius: 16px;
+
+    /* set background-image */
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+        url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* Another way to give background-color into background-image */
+    /* background-color: rgba(0,0,0,0.5)
+    background-blend-mode : overlay; */
+
+
+}
+
+.banner-content p,
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.banner-content p {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.banner-content {
+    width: 1320px;
+    height: 600px;
+    /* border: 1px solid rgb(28, 234, 45); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* banner style end here */
