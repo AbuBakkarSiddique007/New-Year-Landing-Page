@@ -69,3 +69,60 @@ h1 {
 }
 
 /* banner style end here */
+
+
+/* 65% OFF section style start here */
+.off-section-container {
+    max-width: 802.9px;
+    height: 806px;
+
+    /* border: 2px solid red; */
+
+    margin: 0 auto;
+}
+
+.off-section-content {
+    max-height: 306px;
+    /* border: 2px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.off-section-content h1 {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+
+    margin-bottom: 48px;
+
+}
+
+.off-section-content p {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.off-section-content h4 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-bottom: 48px;
+}
+
+.off-section-picture {
+    width: 802.9px;
+    height: 500px;
+}
+
+.off-section-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 65% OFF section end start here */
