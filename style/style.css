@@ -126,3 +126,76 @@ h1 {
 }
 
 /* 65% OFF section end start here */
+
+/* Midnight party section style start here */
+
+.midnight-party-container {
+    max-width: 1320px;
+    height: 600px;
+    /* border: 5px solid red; */
+
+    margin: 120px auto;
+
+    display: flex;
+
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+        url("../images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftSide-content {
+    width: 50%;
+    height: 600px;
+
+    /* border: 2px solid rgb(81, 255, 0); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:center; */
+
+}
+
+.leftSide-content>h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+
+    padding: 30px;
+}
+
+.leftSide-content>p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+
+    padding: 30px;
+}
+
+
+.rightSide-content {
+    width: 50%;
+    height: 600px;
+
+    /* border: 2px solid rgb(89, 0, 255); */
+}
+
+.leftSide-content .join-now-button {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+
+    padding: 20px 70px;
+}
+
+.rightSide-content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Midnight party section style end here */
