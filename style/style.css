@@ -351,6 +351,7 @@ h1 {
     margin-top: 48px;
     margin-bottom: 48px;
 }
+
 .portfolio-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -365,3 +366,13 @@ h1 {
 
 
 /* portfolio section style end here  */
+
+/* footer section style start here  */
+.footer-section {
+    max-width: 1600px;
+    height: 609px;
+
+    border: 2px solid red;
+    margin: 0 auto;
+    
+}
